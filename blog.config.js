@@ -40,9 +40,9 @@ const BLOG = {
     // support provider: gitalk, utterances, cusdis
     provider: '', // leave it empty if you don't need any comment plugin
     gitalkConfig: {
-      repo: '', // The repository of store comments
-      owner: '',
-      admin: [],
+      repo: 'blog-comments', // The repository of store comments
+      owner: 'rming8803',
+      admin: ['rming8803'],
       clientID: process.env.GIT_TALK_CLIENT_ID,
       clientSecret: process.env.GIT_TALK_CLIENT_SECRET,
       distractionFreeMode: false
